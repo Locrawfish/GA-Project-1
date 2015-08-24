@@ -8,6 +8,7 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.) styles/vendor.css -->
@@ -33,42 +34,56 @@
               <p>You're going on a trip to Europe, you'll be asked a lot of questions! In this game, you answer questions about the cities you visit, while earning money to continue traveling. <br> You'll get two tries to answer a question correctly. <br> Look for hints in the photos!</p>
             </div>
         </div>
-
-
       </section>
 
-      <hr>
+      <section>
+        <div class = 'col-md-12' id = 'travel'>
+          <div class = 'text-center'>
+            <h2>Are you ready to travel? </h2>
+            <button class = 'btn-info' id = 'main-button'>Click here to board your flight</button>
+            <!-- <br> -->
+            <!-- <i class="fa fa-plane"></i> -->
+          </div>
+        </div>
+      </section>
 
-      <section class = 'row' id = 'quiz-section'>
+      <section class = 'row' id = 'quiz'>
+        <hr>
         <div class = 'col-md-4 col-md-offset-1'>
-          <img src="images/Austria.jpg">
+          <img id = 'country-image' src =''>
         </div>
         <div class = 'col-md-7'>
-          <h1>Austria</h1>
+          <h1 id = 'country-name'></h1>
 
           <div class = 'col-md-4'>
-            <h4>Vienna, Austria is a center of both historical and cultural significance. The Hapsburgs, which ruled the Austrian Empire for almost a thousand years, had a summer home called Schoenbrunn, pictured here.  </h4>
+            <h3>Question:</h3>
+            <h4 id = 'country-question'></h4>
           </div>
 
           <div class = 'col-md-4 col-md-offset-2'>
-            <ul>
-              <li>Answer 1</li>
-              <li>Answer 2</li>
-              <li>Answer 3</li>
+            <h3>Select an answer:</h3>
 
-            </ul>
+            <div class = 'radio'>
+              <label><input type = 'radio' name = 'optradio'><span id = 'answer-one'></label>
+            </div>
+            <div class = 'radio'>
+              <label><input type = 'radio' name = 'optradio'><span id = 'answer-two'></label>
+            </div>
+            <div class = 'radio'>
+              <label><input type = 'radio' name = 'optradio'><span id = 'answer-three'></label>
+            </div>
+
           </div>
-
         </div>
+        <hr>
       </section>
 
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    </div>
 
-   <hr>
+    </div>
 
 
     <!-- build:js(.) scripts/vendor.js -->

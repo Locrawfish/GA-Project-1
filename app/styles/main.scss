@@ -35,7 +35,7 @@ body {
 
 // Question/Answer Settings
 
-#quiz-section {
+#quiz {
   margin-top: 30px;
 
 }
@@ -43,14 +43,16 @@ body {
 img{
   width: 85%;
   border-radius: 10px;
+  margin: 0 0 40px 0;
 }
 
 ul{
   list-style: none;
+  display: block;
 }
 
 hr {
-  padding: 0;
+  padding-top: 10px;
   border: none;
   border-top: medium double #CFD8DC;
   color: #E6F0F5;
@@ -58,6 +60,10 @@ hr {
   width: 90%;
 }
 
+button{
+  position:center;
+  display: inline;
+}
 
 
 // BOOTSTRAP CSS NOT USED
