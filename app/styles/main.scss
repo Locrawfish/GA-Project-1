@@ -12,24 +12,30 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // }
 
 //PRIMARY LAYOUT STRUCTURE
-body html {
+body, html {
   height: 100%;
-  overflow: hidden;
+  background: white url('../images/Austria.jpg');
+  // overflow: hidden;
 }
 
 body {
-  background-color: white;
+  position: relative;
   background-position: center;
+  background: white url('../images/Austria.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-blend-mode:screen;
+
 }
 
 .title{
-  color: #006699;
+  // color: #006699;
 }
 
-#top {
-  background-color: #E6F0F5;
-}
+// #top {
+//   background-color: #E6F0F5;
+// }
 
 // SECONDARY LAYOUT STRUCTURE
 

@@ -17,7 +17,7 @@ $('#quiz').hide();
       question: 'What is the capital of Austria?',
       choices: ['Salzburg', 'Vienna', 'Linz'],
       correctAnswer: 1,
-      image: '<img src=\'images/Germany.jpg\'>'
+      image: '<img src=\'images/Austria.jpg\'>'
     },{
       country: 'Germany',
       question: 'When did the Berlin Wall fall?',
@@ -29,7 +29,7 @@ $('#quiz').hide();
       question: "Using the picture to the right, what does 'Big Ben' refer to?",
       choices: ['The tower', 'The clock', 'The bell of the clock'],
       correctAnswer: 2,
-      image: '<img src=\'images/Germany.jpg\'>'
+      image: '<img src=\'images/United_Kingdom.jpg\'>'
     }];
 
     var quiz = $('#quiz');
@@ -49,3 +49,9 @@ $('#main-button').click(function(){
     $('#answer-three').text(randomQuestion.choices[2]);
   });
 });
+
+
+// if $('#correctAnswer')
+
+
+
