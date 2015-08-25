@@ -19,18 +19,17 @@ body, html {
 }
 
 body {
-  position: relative;
-  background-position: center;
-  background: white url('../images/Austria.jpg');
+  background-color: gray;
+  background-image: url("../images/Prague.jpeg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  background-blend-mode:screen;
+  background-blend-mode: screen;
 
 }
 
-.title{
-  // color: #006699;
+h1 h2 h3 h4 p{
+ color: white;
 }
 
 // #top {
