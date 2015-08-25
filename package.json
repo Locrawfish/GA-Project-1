@@ -33,6 +33,7 @@
   "scripts": {
     "test": "grunt test"
   },
+
   "eslintConfig": {
     "env": {
       "node": true,
@@ -44,6 +45,9 @@
         2,
         "single"
       ]
+    },
+    "globals": {
+      "$": false
     }
   }
 }
