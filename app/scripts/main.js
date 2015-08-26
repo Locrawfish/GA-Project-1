@@ -5,6 +5,7 @@
 
   // Hide quiz section until click the top button
   $('#quiz').hide();
+  $('#win').hide();
 
   // Array of questions and answers
   // function countryQandAs(country, question, answer){
@@ -38,11 +39,29 @@
     correctAnswer: 1,
     image: '<img src=\'images/Albania.jpg\'>'
   }, {
+    country: 'Andorra',
+    question: 'Andorra is nestled in the Pyrénées Mountains. What country DOES NOT border Andorra?',
+    choices: [' France', ' Spain', ' Germany'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Andorra.jpg\'>'
+  },{
     country: 'Armenia',
     question: 'Interesting quite a few Armenians actually live outside of Armenia. How many Armenians live outside of Armenia?',
     choices: [' 500,000', ' 3 million', ' 8 million'],
     correctAnswer: 2,
     image: '<img src=\'images/Armenia.jpg\'>'
+  }, {
+    country: 'Azerbaijan',
+    question: 'What sea borders Azerbaijan?',
+    choices: [' Caspian Sea', ' Black Sea', ' Adriatic Sea'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Azerbaijan.jpg\'>'
+  },{
+    country: 'Belarus',
+    question: 'What is the main religion in Belarus?',
+    choices: [' Catholicism', ' Protestant', ' Eastern Orthodoxy'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Belarus.jpg\'>'
   }, {
     country: 'Belgium',
     question: 'Everyone knows that Belgium has waffles. Guess what other food is from Belgium?',
@@ -88,7 +107,7 @@
   }, {
     country: 'Estonia',
     question: 'This meteorite crater pictured here is caused by the biggest meteorite to ever hit land while people were around. In what city is it located?',
-    choices: [' ', ' Kaali', ' '],
+    choices: [' Narva', ' Kaali', ' Tartu'],
     correctAnswer: 1,
     image: '<img src=\'images/Estonia.jpg\'>'
   }, {
@@ -169,10 +188,34 @@
     choices: [' the United Nations is the Former Yugoslav Republic of Macedonia', '  the United Nations is the Former Russian Republic of Macedonia', ' the United Nations is the Former Turkish Republic of Macedonia'],
     correctAnswer: 0,
     image: '<img src=\'images/Macedonia.jpg\'>'
+  },{
+    country: 'Malta',
+    question: 'Malta is an island in the Mediterranean Sea. In what year did it gain independence from the UK?',
+    choices: [' 1972', ' 1964', ' 1956'],
+    correctAnswer: 1,
+    image: '<img src=\'images/Malta.jpeg\'>'
+  },{
+    country: 'Moldova',
+    question: ' What is the official language of Moldova?',
+    choices: [' Russian', ' Romanian', ' Slovakian'],
+    correctAnswer: 1,
+    image: '<img src=\'images/Moldova.jpeg\'>'
+  },{
+    country: 'Monaco',
+    question: ' What is the name of the King of Monaco?',
+    choices: [' Albert II', ' Ablert I', ' Albert III'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Monaco.jpg\'>'
+  },{
+    country: 'Montenegro',
+    question: ' In what year did Montenegro declare independence?',
+    choices: [' 1992', ' 1985', ' 2006'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Montenegro.jpeg\'>'
   }, {
     country: 'Netherlands',
     question: 'The Netherlands has two capitals. Which city is NOT a capital?',
-    choices: [' Amersterdam', '  The Hague', 'Rotterdam'],
+    choices: [' Amsterdam', '  The Hague', ' Rotterdam'],
     correctAnswer: 2,
     image: '<img src=\'images/Netherlands.jpg\'>'
   }, {
@@ -189,7 +232,7 @@
     image: '<img src=\'images/Poland.jpg\'>'
   }, {
     country: 'Portugal',
-    question: 'Portugal is situated right next to Spain, and citizens speak Portugese and this other language?',
+    question: 'Portugal is situated right next to Spain, and citizens speak Portuguese and this other language?',
     choices: [' Spanish', '  French', ' Mirandese'],
     correctAnswer: 2,
     image: '<img src=\'images/Portugal.jpg\'>'
@@ -199,6 +242,12 @@
     choices: [' Peles Castle', ' Corvin Castle', ' Săvârșin Royal Castle'],
     correctAnswer: 0,
     image: '<img src=\'images/Romania.jpeg\'>'
+  }, {
+    country: 'San Marino',
+    question: 'San Marino is a 24 square mile country that is surrounded by Italy. Despite the size, San Marino is one of the wealthiest countries in the world. What is the population of this country?',
+    choices: [' 32,000', ' 48,000', ' 23,500'],
+    correctAnswer: 0,
+    image: '<img src=\'images/San-Marino.jpeg\'>'
   }, {
     country: 'Serbia',
     question: 'The Temple of Saint Sava pictured here is in the capital city of Belgrade and is the largest orthodox churches in the world. When was the building completed?',
@@ -257,7 +306,7 @@
 
   // var quiz = $('#quiz');
   var selection;
-  var randomNumber = Math.round(Math.random() * 40); //need to change the 2 to the number of questions -1
+  var randomNumber = Math.round(Math.random() * 47); //need to change the 2 to the number of questions -1
   var randomQuestion = questions[randomNumber];
   var numCorrect = 0;
 
@@ -271,10 +320,27 @@
     $('#answer-three').text(randomQuestion.choices[2]);
   }
 
+
   function updateScore() {
     numCorrect += 100;
     $('.score').html('€ ' + numCorrect);
-  }
+    if (numCorrect === 100){
+      alert('Great job! You leveled up to level 1!');
+    }
+    else if (numCorrect === 200){
+      alert('Great job! You leveled up to level 2!');
+    }
+    else if (numCorrect === 300){
+      alert('Great job! You leveled up to level 3!');
+    }
+    else if (numCorrect === 400){
+        alert('Congratulations! You win!');
+        $('#quiz').hide(500);
+        $('.score').hide(500);
+        $('#win').show();
+      }
+    }
+
   // Show quiz section until click the top button
   $('#main-button').click(function() {
     $('#travel').hide(800);
@@ -296,7 +362,7 @@
   });
 
   $('#next-button').click(function() {
-    randomNumber = Math.round(Math.random() * 40);
+    randomNumber = Math.round(Math.random() * 47);
     randomQuestion = questions[randomNumber];
     $('#quiz').show(1000, newQuestion());
     $('input[name="optradio"]').attr('checked', false);
