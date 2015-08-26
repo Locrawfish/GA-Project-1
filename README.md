@@ -1,7 +1,7 @@
 # GA-Project-1
 My game is called Globetrotter. The idea is that you're going on a trip to Europe,
-and you "visit" each country by answering a question about that country correctly. YOu also
-earn money to continue traveling to (eventually in v2.0) other regions around the world.
+and you "visit" each country by answering a question about that country correctly. You also
+"earn money" to continue traveling to (eventually in v2.0) other regions around the world.
 
 [Trello Board](https://trello.com/b/GBSGpCCf/ga-project-1)
 
