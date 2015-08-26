@@ -60,7 +60,7 @@
     question: 'Bulgaria borders Greece, Turkey, Romania, Serbia, and Macedonia. What is its capital?',
     choices: [' Sofia', ' Burgas', ' Varna'],
     correctAnswer: 0,
-    image: '<img src=\'images/Bulgaria.JPG\'>'
+    image: '<img src=\'images/Bulgaria.jpeg\'>'
   }, {
     country: 'Croatia',
     question: 'Croatia is known for its beautiful coast. What sea borders Croatia',
@@ -130,7 +130,7 @@
   }, {
     country: 'Ireland',
     question: 'What animal cannot be found in Ireland?',
-    choices: [' weasel', ' mole', ' snake'],
+    choices: [' The weasel', ' The mole', ' The snake'],
     correctAnswer: 2,
     image: '<img src=\'images/Ireland.jpeg\'>'
   }, {
@@ -188,12 +188,6 @@
     correctAnswer: 0,
     image: '<img src=\'images/Poland.jpg\'>'
   }, {
-    country: 'Poland',
-    question: 'What do the polish eat with their pizza?',
-    choices: [' ketchup', '  hot sauce', ' vinegar'],
-    correctAnswer: 0,
-    image: '<img src=\'images/Poland.jpg\'>'
-  }, {
     country: 'Portugal',
     question: 'Portugal is situated right next to Spain, and citizens speak Portugese and this other language?',
     choices: [' Spanish', '  French', ' Mirandese'],
@@ -210,7 +204,13 @@
     question: 'The Temple of Saint Sava pictured here is in the capital city of Belgrade and is the largest orthodox churches in the world. When was the building completed?',
     choices: [' 1931', ' 1989', ' 1967'],
     correctAnswer: 1,
-    image: '<img src=\'images/Sebia.jpg\'>'
+    image: '<img src=\'images/Serbia.jpg\'>'
+  }, {
+    country: 'Scotland',
+    question: 'Scotland is a land of beautiful landscapes and a rich history. What is the current official animal?',
+    choices: [' Lion', ' Stag', ' Unicorn'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Scotland.jpg\'>'
   }, {
     country: 'Slovakia',
     question: 'Slovakia has a high rate of secondary education completion. What percentage of people in Slovakia have completed secondary education?',
@@ -228,13 +228,13 @@
     question: 'What is the name of this attraction in Barcelona?',
     choices: [' Hill Montjuic', ' Park Güell', ' La Rambla'],
     correctAnswer: 1,
-    image: '<img src=\'images/.jpeg\'>'
+    image: '<img src=\'images/Spain.jpeg\'>'
   }, {
     country: 'Sweden',
     question: 'What is NOT a region in Sweden?',
     choices: [' Götaland', ' Norrland', ' Lapland'],
     correctAnswer: 2,
-    image: '<img src=\'images/.jpg\'>'
+    image: '<img src=\'images/Sweden.jpg\'>'
   }, {
     country: 'Switzerland',
     question: 'This famous mountain in the Alps strattles Italy and Switzerland.',
