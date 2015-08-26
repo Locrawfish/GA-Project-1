@@ -324,16 +324,16 @@
   function updateScore() {
     numCorrect += 100;
     $('.score').html('€ ' + numCorrect);
-    if (numCorrect === 100){
+    if (numCorrect === 500){
       alert('Great job! You leveled up to level 1!');
     }
-    else if (numCorrect === 200){
+    else if (numCorrect === 1000){
       alert('Great job! You leveled up to level 2!');
     }
-    else if (numCorrect === 300){
+    else if (numCorrect === 1500){
       alert('Great job! You leveled up to level 3!');
     }
-    else if (numCorrect === 400){
+    else if (numCorrect === 2000){
         alert('Congratulations! You win!');
         $('#quiz').hide(500);
         $('.score').hide(500);
