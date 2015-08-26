@@ -25,7 +25,7 @@ and you "visit" each country by answering a question about that country correctl
 * Marc, Dr. Mike, and Bruce
 * Addison, Via, Britney, Sule, and Ryan
 
-#Link to mockup
+#Mockups
 
 ![Mockup] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup.jpg)
 ![Mockup] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup1.jpg)
