@@ -173,8 +173,117 @@
     choices: [' Panevėžys', '  Vilnius', ' Visaginas'],
     correctAnswer: 1,
     image: '<img src=\'images/Lithuania.jpg\'>'
+  },
+  {
+    country: 'Luxembourg',
+    question: "In the small country of Luxembourg, what language do they speak?",
+    choices: [' German', '  Danish', ' Luxembourgish'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Luxembourg.jpg\'>'
+  },
+  {
+    country: 'Macedonia',
+    question: "What is the official name of Macedonia?",
+    choices: [' the United Nations is the Former Yugoslav Republic of Macedonia', '  the United Nations is the Former Russian Republic of Macedonia', ' the United Nations is the Former Turkish Republic of Macedonia'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Macedonia.jpg\'>'
+  },
+  {
+    country: 'Netherlands',
+    question: "The Netherlands has two capitals. Which city is NOT a capital?",
+    choices: [' Amersterdam', '  The Hague', 'Rotterdam'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Netherlands.jpg\'>'
+  },
+  {
+    country: 'Norway',
+    question: "What creature is most prominent in Norwegian folklore?",
+    choices: [' Troll', '  Witch', ' Dragon'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Norway.jpeg\'>'
+  },
+  {
+    country: 'Poland',
+    question: "What do the polish eat with their pizza?",
+    choices: [' ketchup', '  hot sauce', ' vinegar'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Poland.jpg\'>'
+  },
+  {
+    country: 'Poland',
+    question: "What do the polish eat with their pizza?",
+    choices: [' ketchup', '  hot sauce', ' vinegar'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Poland.jpg\'>'
+  },
+  {
+    country: 'Portugal',
+    question: "Portugal is situated right next to Spain. It's citizens speak Portugese and this other language?",
+    choices: [' Spanish', '  French', ' Mirandese'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Portugal.jpg\'>'
+  },{
+    country: 'Romania',
+    question: "This Romanian castle was the first European castle entirely lit by electrical current.",
+    choices: [' Peles Castle', ' Corvin Castle', ' Săvârșin Royal Castle'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Romania.jpeg\'>'
+  },
+  {
+    country: 'Serbia',
+    question: "The Temple of Saint Sava pictured here is in the capital city of Belgrade and is the largest orthodox churches in the world. When was the building completed?",
+    choices: [' 1931', ' 1989', ' 1967'],
+    correctAnswer: 1,
+    image: '<img src=\'images/Serbia.jpg\'>'
+  },{
+    country: 'Slovakia',
+    question: "Slovakia has a high rate of secondary education completion. What percentage of people in Slovakia have completed secondary education?",
+    choices: [' 86%', ' 94%', ' 90%'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Slovakia.png\'>'
+  },
+  {
+    country: 'Slovenia',
+    question: "This church is in the middle of this lake in northwestern Slovenia that shares its name with the town.",
+    choices: [' Lake Bled', ' Lake Como', ' Lake Garda'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Slovenia.jpg\'>'
+  },
+  {
+    country: 'Spain',
+    question: "What is the name of this attraction in Barcelona?",
+    choices: [' Hill Montjuic', ' Park Güell', ' La Rambla'],
+    correctAnswer: 1,
+    image: '<img src=\'images/.jpg\'>'
+  },
+  {
+    country: 'Sweden',
+    question: "What is NOT a region in Sweden?",
+    choices: [' Götaland', ' Norrland', ' Lapland'],
+    correctAnswer: 2,
+    image: '<img src=\'images/.jpg\'>'
+  },
+  {
+    country: 'Switzerland',
+    question: "This famous mountain in the Alps strattles Italy and Switzerland.",
+    choices: [' Matterhorn', ' Mont Blanc', ' Weisshorn'],
+    correctAnswer: 0,
+    image: '<img src=\'images/Switzerland.jpg\'>'
+  },
+  {
+    country: 'Ukraine',
+    question: "This square in Kieve was destroyed during the riots in February 2014.",
+    choices: [' Freedom Square', ' Independence Square', ' Sofiyska Square'],
+    correctAnswer: 1,
+    image: '<img src=\'images/Ukraine.jpg\'>'
+  },
+  {
+    country: 'Vatican City',
+    question: "Vatican City is the smallest country in the world, and many of it's citizens live abroad. How many people have Vatican City citizenship?",
+    choices: [' 550', ' 750', ' 600'],
+    correctAnswer: 2,
+    image: '<img src=\'images/Vatican-City.jpg\'>'
   }
-
   ];
 
   var quiz = $('#quiz');
