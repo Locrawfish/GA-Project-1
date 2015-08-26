@@ -6,6 +6,15 @@ Earn € 2000 and you win! Happy travels!
 
 [Link to deployed app](http://upholsterer-richard-67310.bitballoon.com/)
 
+## Technologies
+
+* HTML5
+* SASS
+* JavaScript
+* jQuery
+* Yeoman, Grunt, Bower
+* Bootstrap
+
 #Link to mockup
-https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup.jpg
-[Link 2] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup1.jpg)
+![Mockup] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup.jpg)
+![Mockup] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup1.jpg)
