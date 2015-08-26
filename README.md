@@ -7,5 +7,5 @@ Earn € 2000 and you win! Happy travels!
 [Link to deployed app](http://upholsterer-richard-67310.bitballoon.com/)
 
 #Link to mockup
-[Link 1] (../images/Mockup.jpg)
-[Link 2] (../images/Mockup1.jpg)
+[Link 1] (app/images/Mockup.jpg)
+[Link 2] (app/images/Mockup1.jpg)
