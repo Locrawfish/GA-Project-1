@@ -7,6 +7,26 @@ earn money to continue traveling to (eventually in v2.0) other regions around th
 
 [Link to deployed app](http://upholsterer-richard-67310.bitballoon.com/)
 
+## Technologies
+
+* HTML5
+* SASS
+* JavaScript
+* jQuery
+* Yeoman, Grunt, Bower
+* Bootstrap
+
+#Struggles
+* Getting jQuery to know when the correct answer is selected and
+* Getting jQuery to provide feedback to the user after selection of an answer
+* Getting jQuery to regenerate a new question
+
+#Thank Yous
+* Marc, Dr. Mike, and Bruce
+* Addison, Via, Britney, Sule, and Ryan
+
 #Link to mockup
-![Link 1] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup.jpg)
-![Link 2] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup1.jpg)
+
+![Mockup] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup.jpg)
+![Mockup] (https://github.com/Locrawfish/GA-Project-1/blob/master/app/images/Mockup1.jpg)
+
