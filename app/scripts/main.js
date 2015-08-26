@@ -257,7 +257,7 @@
 
   // var quiz = $('#quiz');
   var selection;
-  var randomNumber = Math.round(Math.random() * 39); //need to change the 2 to the number of questions -1
+  var randomNumber = Math.round(Math.random() * 40); //need to change the 2 to the number of questions -1
   var randomQuestion = questions[randomNumber];
   var numCorrect = 0;
 
@@ -284,7 +284,7 @@
   $('#myForm input').on('change', function() {
     selection = ($('input[name="optradio"]:checked', '#myForm').val());
     // console.log('answer is ' + randomQuestion.correctAnswer);
-    if (selection === randomQuestion.correctAnswer){
+    if (parseInt(selection) === randomQuestion.correctAnswer){
     // $('#feedback').text('You got it right!');
       alert('You are correct!');
     updateScore();
@@ -296,7 +296,7 @@
   });
 
   $('#next-button').click(function() {
-    randomNumber = Math.round(Math.random() * 39);
+    randomNumber = Math.round(Math.random() * 40);
     randomQuestion = questions[randomNumber];
     $('#quiz').show(1000, newQuestion());
     $('input[name="optradio"]').attr('checked', false);
