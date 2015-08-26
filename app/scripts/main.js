@@ -7,13 +7,7 @@
   $('#quiz').hide();
   $('#win').hide();
 
-  // Array of questions and answers
-  // function countryQandAs(country, question, answer){
-  //   this.country = country;
-  //   this.question = question;
-  //   this.answer = answer;
-  // };
-
+// ARRAY OF COUNTRIES, QUESTIONS, ANSWERS, AND IMAGES
   var questions = [{
     country: 'Austria',
     question: 'Schönbrunn palace, shown in the picture was the summer home of the Hapsburgs. How many rooms does it have?',
@@ -304,12 +298,13 @@
     image: '<img src=\'images/Vatican-City.jpg\'>'
   }];
 
-  // var quiz = $('#quiz');
+  // VARIABLES NEEDED FOR CHANGING TO THE NEXT QUESTION
   var selection;
   var randomNumber = Math.round(Math.random() * 47); //need to change the 2 to the number of questions -1
   var randomQuestion = questions[randomNumber];
   var numCorrect = 0;
 
+// FUNCTION TO GENERATE A RANDOM QUESTION
   function newQuestion() {
     console.log('made it!');
     $('#country-name').text(randomQuestion.country);
@@ -320,55 +315,53 @@
     $('#answer-three').text(randomQuestion.choices[2]);
   }
 
-
+// FUNCTION TO UPDATE THE SCORE AND TELL THE USER WHEN S/HE HAS LEVELED UP AND/OR WON
   function updateScore() {
     numCorrect += 100;
     $('.score').html('€ ' + numCorrect);
-    if (numCorrect === 500){
+    if (numCorrect === 500) {
       alert('Great job! You leveled up to level 1!');
     }
-    else if (numCorrect === 1000){
+    else if (numCorrect === 1000) {
       alert('Great job! You leveled up to level 2!');
     }
-    else if (numCorrect === 1500){
+    else if (numCorrect === 1500) {
       alert('Great job! You leveled up to level 3!');
     }
-    else if (numCorrect === 2000){
-        alert('Congratulations! You win!');
-        $('#quiz').hide(500);
-        $('.score').hide(500);
-        $('#win').show();
-      }
+    else if (numCorrect === 2000) {
+      alert('Congratulations! You win!');
+      $('#quiz').hide(500);
+      $('.score').hide(500);
+      $('#win').show();
     }
+  }
 
-  // Show quiz section until click the top button
+  // CLICK ON MAINBUTTON TO SHOW QUIZ AND HIDE THE 'ARE YOU READY' BUTTON
   $('#main-button').click(function() {
     $('#travel').hide(800);
     $('#quiz').show(1000, newQuestion());
   });
 
+// THIS CODE EVALUATES THE USERS SELECTION, GIVES FEEDBACK, AND UPDATES THE SCORE
   $('#myForm input').on('change', function() {
     selection = ($('input[name="optradio"]:checked', '#myForm').val());
     // console.log('answer is ' + randomQuestion.correctAnswer);
-    if (parseInt(selection) === randomQuestion.correctAnswer){
-    // $('#feedback').text('You got it right!');
+    if (parseInt(selection) === randomQuestion.correctAnswer) {
+      // $('#feedback').text('You got it right!');
       alert('You are correct!');
-    updateScore();
-  }
+      updateScore();
+    }
     else {
       // $('#feedback').text("That's wrong. Try again.");
       alert('You are wrong. Try again.');
     }
   });
 
+// THIS CODE GENERATES ANOTHER RANDOM QUESTION FROM ARRAY
   $('#next-button').click(function() {
     randomNumber = Math.round(Math.random() * 47);
     randomQuestion = questions[randomNumber];
     $('#quiz').show(1000, newQuestion());
-    $('input[name="optradio"]').attr('checked', false);
+    $('input[name="optradio"]').attr('checked', false); //THIS CLEARS THE RADIO BUTTON FOR NEXT QUESTION
   });
 
-
-  // if $('#correctAnswer')
-  // if ($('.radio') == randomQuestion.correctAnswer){
-  // $('#quiz').show(1000, function(New));

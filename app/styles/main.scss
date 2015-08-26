@@ -1,5 +1,4 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
@@ -17,35 +16,30 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: screen;
-
 }
 
-h1, h2, h3, h4, h5, h6, p, span{
- color: #fff;
+h1, h2, h3, h4, h5, h6, p, span {
+  color: #fff;
 }
 
-p{
+p {
   font-size: 1.1em;
   line-height: 1.2em;
 }
 
-
 // SECONDARY LAYOUT STRUCTURE
-
 // Question/Answer Settings
-
-#quiz{
-  margin:260px 30px 10px 30px;
+#quiz {
+  margin: 260px 30px 10px 30px;
   background-color: rgba(44, 44, 44, 0.6);
 }
 
-img{
+img {
   width: 100%;
   height: 70%;
   border-radius: 10px;
   margin: 0 0 40px 0;
 }
-
 
 hr {
   padding: 10px 0 10px 0;
@@ -56,33 +50,33 @@ hr {
   width: 90%;
 }
 
-button{
-  position:center;
+button {
+  position: center;
   display: inline;
 }
 
-.score{
+.score {
   color: #fff;
   font-size: 3em;
   padding-top: 150px;
 }
 
-#win{
-  color:#fff;
+#win {
+  color: #5bc0de;
   font-size: 3em;
 }
 
-#next-button{
-  margin-bottom:10px;
+#next-button {
+  margin-bottom: 10px;
 }
 
 
 /* Responsive: Portrait tablets and up */
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 730px;
   }
-
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -90,12 +84,10 @@ button{
     padding-left: 0;
     padding-right: 0;
   }
-
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
   }
-
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
