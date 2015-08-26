@@ -7,7 +7,7 @@
   $('#quiz').hide();
   $('#win').hide();
 
-// ARRAY OF COUNTRIES, QUESTIONS, ANSWERS, AND IMAGES
+  // ARRAY OF COUNTRIES, QUESTIONS, ANSWERS, AND IMAGES
   var questions = [{
     country: 'Austria',
     question: 'Schönbrunn palace, shown in the picture was the summer home of the Hapsburgs. How many rooms does it have?',
@@ -304,7 +304,7 @@
   var randomQuestion = questions[randomNumber];
   var numCorrect = 0;
 
-// FUNCTION TO GENERATE A RANDOM QUESTION
+  // FUNCTION TO GENERATE A RANDOM QUESTION
   function newQuestion() {
     console.log('made it!');
     $('#country-name').text(randomQuestion.country);
@@ -315,23 +315,23 @@
     $('#answer-three').text(randomQuestion.choices[2]);
   }
 
-// FUNCTION TO UPDATE THE SCORE AND TELL THE USER WHEN S/HE HAS LEVELED UP AND/OR WON
+  // FUNCTION TO UPDATE THE SCORE AND TELL THE USER WHEN S/HE HAS LEVELED UP AND/OR WON
   function updateScore() {
     numCorrect += 100;
-    $('.score').html('€ ' + numCorrect);
-    if (numCorrect === 500) {
+    $('#score').html('€ ' + numCorrect);
+    if (numCorrect === 100) {
       alert('Great job! You leveled up to level 1!');
     }
-    else if (numCorrect === 1000) {
+    else if (numCorrect === 200) {
       alert('Great job! You leveled up to level 2!');
     }
-    else if (numCorrect === 1500) {
+    else if (numCorrect === 300) {
       alert('Great job! You leveled up to level 3!');
     }
-    else if (numCorrect === 2000) {
+    else if (numCorrect === 400) {
       alert('Congratulations! You win!');
       $('#quiz').hide(500);
-      $('.score').hide(500);
+      $('#score').hide(500);
       $('#win').show();
     }
   }
@@ -342,7 +342,7 @@
     $('#quiz').show(1000, newQuestion());
   });
 
-// THIS CODE EVALUATES THE USERS SELECTION, GIVES FEEDBACK, AND UPDATES THE SCORE
+  // THIS CODE EVALUATES THE USERS SELECTION, GIVES FEEDBACK, AND UPDATES THE SCORE
   $('#myForm input').on('change', function() {
     selection = ($('input[name="optradio"]:checked', '#myForm').val());
     // console.log('answer is ' + randomQuestion.correctAnswer);
@@ -357,7 +357,7 @@
     }
   });
 
-// THIS CODE GENERATES ANOTHER RANDOM QUESTION FROM ARRAY
+  // THIS CODE GENERATES ANOTHER RANDOM QUESTION FROM ARRAY
   $('#next-button').click(function() {
     randomNumber = Math.round(Math.random() * 47);
     randomQuestion = questions[randomNumber];
@@ -365,10 +365,12 @@
     $('input[name="optradio"]').attr('checked', false); //THIS CLEARS THE RADIO BUTTON FOR NEXT QUESTION
   });
 
-//START OVER BUTTON
-$('#start-over').click(function(){
-  $('#quiz').show(1000, newQuestion());
-  $('#start-over').hide();
-  $('#win').hide();
-  $('#score').show();
-});
+  //START OVER BUTTON TO RESTART GAME
+  $('#start-over').click(function() {
+    $('#quiz').show(1000, newQuestion());
+    $('#start-over').hide();
+    $('#win').hide();
+    numCorrect = 0;
+    $('#score').html('€ ' + numCorrect);
+    $('#score').show();
+  });
