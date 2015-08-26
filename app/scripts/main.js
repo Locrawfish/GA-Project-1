@@ -365,3 +365,10 @@
     $('input[name="optradio"]').attr('checked', false); //THIS CLEARS THE RADIO BUTTON FOR NEXT QUESTION
   });
 
+//START OVER BUTTON
+$('#start-over').click(function(){
+  $('#quiz').show(1000, newQuestion());
+  $('#start-over').hide();
+  $('#win').hide();
+  $('#score').show();
+});
