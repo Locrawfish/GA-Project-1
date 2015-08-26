@@ -44,7 +44,7 @@
     choices: [' France', ' Spain', ' Germany'],
     correctAnswer: 2,
     image: '<img src=\'images/Andorra.jpg\'>'
-  },{
+  }, {
     country: 'Armenia',
     question: 'Interesting quite a few Armenians actually live outside of Armenia. How many Armenians live outside of Armenia?',
     choices: [' 500,000', ' 3 million', ' 8 million'],
@@ -56,7 +56,7 @@
     choices: [' Caspian Sea', ' Black Sea', ' Adriatic Sea'],
     correctAnswer: 0,
     image: '<img src=\'images/Azerbaijan.jpg\'>'
-  },{
+  }, {
     country: 'Belarus',
     question: 'What is the main religion in Belarus?',
     choices: [' Catholicism', ' Protestant', ' Eastern Orthodoxy'],
@@ -188,25 +188,25 @@
     choices: [' the United Nations is the Former Yugoslav Republic of Macedonia', '  the United Nations is the Former Russian Republic of Macedonia', ' the United Nations is the Former Turkish Republic of Macedonia'],
     correctAnswer: 0,
     image: '<img src=\'images/Macedonia.jpg\'>'
-  },{
+  }, {
     country: 'Malta',
     question: 'Malta is an island in the Mediterranean Sea. In what year did it gain independence from the UK?',
     choices: [' 1972', ' 1964', ' 1956'],
     correctAnswer: 1,
     image: '<img src=\'images/Malta.jpeg\'>'
-  },{
+  }, {
     country: 'Moldova',
     question: ' What is the official language of Moldova?',
     choices: [' Russian', ' Romanian', ' Slovakian'],
     correctAnswer: 1,
     image: '<img src=\'images/Moldova.jpeg\'>'
-  },{
+  }, {
     country: 'Monaco',
     question: ' What is the name of the King of Monaco?',
     choices: [' Albert II', ' Ablert I', ' Albert III'],
     correctAnswer: 0,
     image: '<img src=\'images/Monaco.jpg\'>'
-  },{
+  }, {
     country: 'Montenegro',
     question: ' In what year did Montenegro declare independence?',
     choices: [' 1992', ' 1985', ' 2006'],
