@@ -1,6 +1,7 @@
 # GA-Project-1
-You're going on a trip to Europe, you'll be asked a lot of questions! In this game, you answer questions about the cities you visit, while earning money to continue traveling.
-Earn € 2000 and you win! Happy travels!
+My game is called Globetrotter. The idea is that you're going on a trip to Europe,
+and you "visit" each country by answering a question about that country correctly. YOu also
+earn money to continue traveling to (eventually in v2.0) other regions around the world.
 
 [Trello Board](https://trello.com/b/GBSGpCCf/ga-project-1)
 
