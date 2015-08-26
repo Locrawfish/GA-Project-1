@@ -54,24 +54,21 @@
     choices: [' 1918', ' 1955', ' 1992'],
     correctAnswer: 2,
     image: '<img src=\'images/Bosnia.jpg\'>'
-  },
-  {
+  }, {
     country: 'Bulgaria',
     question: "Bulgaria borders Greece, Turkey, Romania, Serbia, and Macedonia. What is it's capital?",
     choices: [' Sofia', ' Burgas', ' Varna'],
     correctAnswer: 0,
     image: '<img src=\'images/Bulgaria.JPG\'>'
-  },
-  {
+  }, {
     country: 'Croatia',
     question: "Croatia is known for its beautiful coast. What sea borders Croatia",
     choices: [' Mediterranean Sea', ' Adriatic Sea', ' Tyrrhenian Sea'],
     correctAnswer: 1,
     image: '<img src=\'images/Croatia.jpg\'>'
-  },
-  {
+  }, {
     country: 'Cyprus',
-    question: "Cyprus is an island in the ?",
+    question: "Cyprus is an island in the Mediterranean Sea. What country is closest to it?",
     choices: [' Greece', ' Syria', ' Turkey'],
     correctAnswer: 2,
     image: '<img src=\'images/Cyprus.jpg\'>'
@@ -81,7 +78,7 @@
     question: "The capital of the Czech Republic is Prague, which has a famous bridge pictured here. What is the name of the bridge??",
     choices: [' Charles Bridge', ' Nusle Bridge', ' Palacky Bridge'],
     correctAnswer: 0,
-    image: '<img src=\'images/CzechRepublic.jpeg\'>'
+    image: '<img src=\'images/CzechRepublic.jpg\'>'
   },
   {
     country: 'Denmark',
@@ -89,206 +86,179 @@
     choices: [' 137', ' 243', ' 76'],
     correctAnswer: 2,
     image: '<img src=\'images/Denmark.jpg\'>'
-  },
-  {
+  }, {
     country: 'Estonia',
     question: "This meteorite crater pictured here is caused by the biggest meteorite to ever hit land while people were around. In what city is it located?",
     choices: [' ', ' Kaali', ' '],
     correctAnswer: 1,
     image: '<img src=\'images/Estonia.jpg\'>'
-  },
-  {
+  }, {
     country: 'Finland',
     question: "Where does Finland rank in the number of Winter Olympic medals per capita?",
     choices: [' 1', ' 2', ' 3'],
     correctAnswer: 1,
     image: '<img src=\'images/Finland.jpg\'>'
-  },
-  {
+  }, {
     country: 'France',
     question: "Mont Saint Michel is one of France's most recognizable landmarks. How many people live there as of 2015?",
     choices: [' 50', ' 124', ' 232'],
     correctAnswer: 0,
     image: '<img src=\'images/France.jpg\'>'
-  },
-  {
+  }, {
     country: 'Georgia',
     question: "What language is not spoken in Georgia?",
     choices: [' Russian', ' Albanian', ' Azerbaijani'],
     correctAnswer: 1,
     image: '<img src=\'images/Georgia.jpeg\'>'
-  },
-  {
+  }, {
     country: 'Greece',
     question: "Athens is the capital of Greece. What percentage of the population lives there?",
     choices: [' 25%', ' 32%', ' 40%'],
     correctAnswer: 2,
     image: '<img src=\'images/Greece.jpg\'>'
-  },
-  {
+  }, {
     country: 'Hungary',
-    question: "HUngary is one of the oldest countries in Europe. When was it established?",
+    question: "Hungary is one of the oldest countries in Europe. When was it established?",
     choices: [' 896', ' 813', ' 962'],
     correctAnswer: 0,
     image: '<img src=\'images/Hungary.jpg\'>'
-  },
-  {
+  }, {
     country: 'Iceland',
     question: "What is the population of Iceland?",
     choices: [' 456,300', ' 329,100', ' 298,700'],
     correctAnswer: 1,
     image: '<img src=\'images/Iceland.jpg\'>'
-  },
-  {
+  }, {
     country: 'Ireland',
     question: "What animal cannot be found in Ireland?",
     choices: [' weasel', ' mole', ' snake'],
     correctAnswer: 2,
     image: '<img src=\'images/Ireland.jpeg\'>'
-  },
-  {
+  }, {
     country: 'Italy',
     question: "How many pounds of pasta does the average Italian eat each year?",
     choices: [' 25kg', ' 19kg', ' 15kg'],
     correctAnswer: 0,
     image: '<img src=\'images/Italy.jpeg\'>'
-  },
-  {
+  }, {
     country: 'Latvia',
     question: "What is the most popular sport in Latvia?",
     choices: [' Ice Hockey', ' Skiing', ' Soccer'],
     correctAnswer: 0,
     image: '<img src=\'images/Latvia.jpg\'>'
-  },
-  {
+  }, {
     country: 'Liechtenstein',
     question: "When was the country's defense force abolished?",
     choices: [' 1918', ' 1868', ' 1886'],
     correctAnswer: 1,
     image: '<img src=\'images/Liechtenstein.jpg\'>'
-  },
-  {
+  }, {
     country: 'Lithuania',
     question: "Kaunas pictured here is the second largest city in Lithuania. What is the first largest city?",
     choices: [' Panevėžys', '  Vilnius', ' Visaginas'],
     correctAnswer: 1,
     image: '<img src=\'images/Lithuania.jpg\'>'
-  },
-  {
+  }, {
     country: 'Luxembourg',
     question: "In the small country of Luxembourg, what language do they speak?",
     choices: [' German', '  Danish', ' Luxembourgish'],
     correctAnswer: 2,
     image: '<img src=\'images/Luxembourg.jpg\'>'
-  },
-  {
+  }, {
     country: 'Macedonia',
     question: "What is the official name of Macedonia?",
     choices: [' the United Nations is the Former Yugoslav Republic of Macedonia', '  the United Nations is the Former Russian Republic of Macedonia', ' the United Nations is the Former Turkish Republic of Macedonia'],
     correctAnswer: 0,
     image: '<img src=\'images/Macedonia.jpg\'>'
-  },
-  {
+  }, {
     country: 'Netherlands',
     question: "The Netherlands has two capitals. Which city is NOT a capital?",
     choices: [' Amersterdam', '  The Hague', 'Rotterdam'],
     correctAnswer: 2,
     image: '<img src=\'images/Netherlands.jpg\'>'
-  },
-  {
+  }, {
     country: 'Norway',
     question: "What creature is most prominent in Norwegian folklore?",
     choices: [' Troll', '  Witch', ' Dragon'],
     correctAnswer: 0,
     image: '<img src=\'images/Norway.jpeg\'>'
-  },
-  {
+  }, {
     country: 'Poland',
     question: "What do the polish eat with their pizza?",
     choices: [' ketchup', '  hot sauce', ' vinegar'],
     correctAnswer: 0,
     image: '<img src=\'images/Poland.jpg\'>'
-  },
-  {
+  }, {
     country: 'Poland',
     question: "What do the polish eat with their pizza?",
     choices: [' ketchup', '  hot sauce', ' vinegar'],
     correctAnswer: 0,
     image: '<img src=\'images/Poland.jpg\'>'
-  },
-  {
+  }, {
     country: 'Portugal',
     question: "Portugal is situated right next to Spain. It's citizens speak Portugese and this other language?",
     choices: [' Spanish', '  French', ' Mirandese'],
     correctAnswer: 2,
     image: '<img src=\'images/Portugal.jpg\'>'
-  },{
+  }, {
     country: 'Romania',
     question: "This Romanian castle was the first European castle entirely lit by electrical current.",
     choices: [' Peles Castle', ' Corvin Castle', ' Săvârșin Royal Castle'],
     correctAnswer: 0,
     image: '<img src=\'images/Romania.jpeg\'>'
-  },
-  {
+  }, {
     country: 'Serbia',
     question: "The Temple of Saint Sava pictured here is in the capital city of Belgrade and is the largest orthodox churches in the world. When was the building completed?",
     choices: [' 1931', ' 1989', ' 1967'],
     correctAnswer: 1,
-    image: '<img src=\'images/Serbia.jpg\'>'
-  },{
+    image: '<img src=\'images/Sebia.jpg\'>'
+  }, {
     country: 'Slovakia',
     question: "Slovakia has a high rate of secondary education completion. What percentage of people in Slovakia have completed secondary education?",
     choices: [' 86%', ' 94%', ' 90%'],
     correctAnswer: 2,
     image: '<img src=\'images/Slovakia.png\'>'
-  },
-  {
+  }, {
     country: 'Slovenia',
     question: "This church is in the middle of this lake in northwestern Slovenia that shares its name with the town.",
     choices: [' Lake Bled', ' Lake Como', ' Lake Garda'],
     correctAnswer: 0,
     image: '<img src=\'images/Slovenia.jpg\'>'
-  },
-  {
+  }, {
     country: 'Spain',
     question: "What is the name of this attraction in Barcelona?",
     choices: [' Hill Montjuic', ' Park Güell', ' La Rambla'],
     correctAnswer: 1,
-    image: '<img src=\'images/.jpg\'>'
-  },
-  {
+    image: '<img src=\'images/.jpeg\'>'
+  }, {
     country: 'Sweden',
     question: "What is NOT a region in Sweden?",
     choices: [' Götaland', ' Norrland', ' Lapland'],
     correctAnswer: 2,
     image: '<img src=\'images/.jpg\'>'
-  },
-  {
+  }, {
     country: 'Switzerland',
     question: "This famous mountain in the Alps strattles Italy and Switzerland.",
     choices: [' Matterhorn', ' Mont Blanc', ' Weisshorn'],
     correctAnswer: 0,
     image: '<img src=\'images/Switzerland.jpg\'>'
-  },
-  {
+  }, {
     country: 'Ukraine',
     question: "This square in Kieve was destroyed during the riots in February 2014.",
     choices: [' Freedom Square', ' Independence Square', ' Sofiyska Square'],
     correctAnswer: 1,
     image: '<img src=\'images/Ukraine.jpg\'>'
-  },
-  {
+  }, {
     country: 'Vatican City',
     question: "Vatican City is the smallest country in the world, and many of it's citizens live abroad. How many people have Vatican City citizenship?",
     choices: [' 550', ' 750', ' 600'],
     correctAnswer: 2,
     image: '<img src=\'images/Vatican-City.jpg\'>'
-  }
-  ];
+  }];
 
   var quiz = $('#quiz');
   var selection;
-  var randomNumber = Math.round(Math.random() * 22); //need to change the 2 to the number of questions -1
+  var randomNumber = Math.round(Math.random() * 39); //need to change the 2 to the number of questions -1
   var randomQuestion = questions[randomNumber];
   var numCorrect = 0;
 
@@ -327,10 +297,10 @@
   });
 
   $('#next-button').click(function() {
-    randomNumber = Math.round(Math.random() * 22);
+    randomNumber = Math.round(Math.random() * 39);
     randomQuestion = questions[randomNumber];
     $('#quiz').show(1000, newQuestion());
-    $('input[name="optradio"]').attr('checked',false);
+    $('input[name="optradio"]').attr('checked', false);
   });
 
 

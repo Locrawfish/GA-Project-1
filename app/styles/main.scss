@@ -31,6 +31,11 @@ h1, h2, h3, h4, h5, h6, p, span{
  color: #fff;
 }
 
+p{
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
 // #top{
 //   background-color: rgba(44, 44, 44, 0.6);
 //   // height: 200px;
@@ -56,7 +61,7 @@ img{
 
 
 hr {
-  padding-top: 10px;
+  padding: 10px 0 10px 0;
   border: none;
   border-top: medium double #CFD8DC;
   color: rgba(203, 207, 211, 0.6);
@@ -72,6 +77,7 @@ button{
 .score{
   color: #fff;
   font-size: 3em;
+  padding-top: 150px;
 }
 
 
